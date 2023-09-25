@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(23, 224, 194, 0.202);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #container {
+
+            background-color: rgb(224, 224, 233);
+            padding: 80px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 3px 3px 14px black;
+            cursor: pointer;
+        }
+
+        .heading {
+            margin: 0px 0px 20px 0px;
+        }
+
+        input {
+            width: 200px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        #btn {
+            background-color: rgb(170, 200, 233);
+            align-items: center;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 700;
+        }
+
+        #btn:hover {
+            background-color: rgb(73, 35, 187);
+            color: white;
+        }
+
+        input[type="password"] {
+            font-size: 18px;
+            border: none;
+            padding: 8px;
+
+        }
+
+        input[type="text"] {
+            font-size: 18px;
+            border: none;
+            padding: 8px;
+        }
+
+        input[type="email"] {
+            font-size: 18px;
+            border: none;
+            padding: 8px;
+        }
+        @media (max-width:600px){
+            #container{
+                width: 200px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="heading">Login</h1>
+        <form action="ordernow.html" onsubmit=" return submitForm()" id="validate">
+            <input type="text" id="username" placeholder="Username">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="submit" value="submit" id="btn">
+        </form>
+    </div>
+
+    <script>
+        var form = document.getElementById("validate");
+        var username = document.getElementById("username");
+        var password = document.getElementById("password");
+        var email = document.getElementById("email");
+        function submitForm() {
+            if (username.value == "" || password.value == "" || email.value == "") {
+                alert("No Blank Field Allowed")
+                return false;
+            }
+            else if (username.value.length <= 3) {
+                alert("Username Must include More Than 3 Words");
+                return false;
+            }
+            if (password.value.length < 6) {
+                alert("Password Must Be Six Digit Or Word")
+                return false;
+            } else if (password.value[0] != password.value[0].toUpperCase()) {
+                alert("First Letter Must Be Capital");
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+</body>
+
+</html>

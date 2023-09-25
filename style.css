@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.indexcont {
+    background-image: url("https://th.bing.com/th/id/OIP.rUgFNNx8DHm-4RoQS8G4nwHaEo?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.logo1 {
+    border: 2px solid rgb(236, 8, 8);
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+    position: relative;
+    top: 20px;
+    right: 750px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 50%;
+    box-shadow: 3px -3px 10px rgb(212, 200, 200);
+    padding: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.logo span {
+    color: red;
+}
+
+.navbar {}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    margin-top: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    font-family: sans-serif;
+    /* border: 1px solid white; */
+    height: 40px;
+}
+
+#menu {
+    border: 2px solid white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#indhome {
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(239, 224, 224);
+
+}
+
+#indhome:hover {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+}
+
+#home {
+    /* border: 1px solid white; */
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(239, 224, 224)
+}
+
+#home:hover {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+}
+
+.navbar ul .order2 {
+    border: 1px solid white;
+    height: 35px;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.order2:hover {
+    box-shadow: -3px -3px 5px rgb(241, 190, 190);
+
+
+}
+
+#menu:hover {
+    color: black;
+}
+
+.navbar ul .order {
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(239, 224, 224);
+    height: 35px;
+    text-align: center;
+
+}
+
+.navbar ul .order:hover {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.indpara {
+    color: white;
+}
+
+/* Main Section */
+.section {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.food {
+    color: green;
+}
+
+.para1 {
+    color: green;
+}
+
+/* Menu bar */
+.container {
+    padding: 40px;
+}
+
+.div1 {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    /* margin: 20px; */
+    box-shadow: 3px 3px 12px red;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.div1 .item {
+    /* background-color: yellow; */
+    /* border: 5px solid white; */
+    width: 200px;
+    height: 200px;
+    margin: 25px 20px;
+    padding: 2px;
+}
+
+.div1 .item .para:hover {
+    color: rgb(171, 227, 164);
+    font-size: 13px;
+    border: 2px solid white;
+    margin-top: 3px;
+    padding: 5px;
+    /* border-radius: 10px; */
+}
+
+.margin {
+    margin-top: 20px;
+}
+
+.para {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+
+}
+
+.itemspan {
+    color: red;
+}
+
+input {
+    background-color: rgb(238, 195, 195);
+    padding: 5px;
+    margin: 10px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 2px solid rgb(230, 151, 151);
+    background: transparent;
+    color: white;
+    cursor: pointer;
+
+}
+
+input:hover {
+    background-color: green;
+    color: rgb(226, 223, 223);
+}
+
+.image1 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image1:hover {
+    padding: 5px;
+}
+
+.image2 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image2:hover {
+    padding: 5px;
+}
+
+.image3 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image3:hover {
+    padding: 5px;
+}
+
+.image4 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image4:hover {
+    padding: 5px;
+}
+
+.image5 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image5:hover {
+    padding: 5px;
+}
+
+.image6 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image6:hover {
+    padding: 5px;
+}
+
+.image7 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image7:hover {
+    padding: 5px;
+}
+
+.image8 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image8:hover {
+    padding: 5px;
+}
+
+.image9 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image9:hover {
+    padding: 5px;
+}
+
+.image10 {
+    width: 181px;
+    height: 130px;
+    background: transparent;
+}
+
+.item .image10:hover {
+    padding: 5px;
+}
+
+@media (max-width:600px) {
+    .headingsec {
+        font-size: 50px;
+    }
+
+    .item img {
+        width: 100px;
+        margin-left: 15px;
+    }
+
+    .para1 {
+        font-size: 30px;
+    }
+
+    .div1 {
+        width: 590px;
+        height: 350px;
+        box-shadow: none;
+        border: none;
+
+    }
+
+    .div1 .item {
+        margin-right: 10px;
+    }
+
+    .image5 {
+        display: none;
+    }
+
+    .paralast {
+        display: none;
+    }
+
+    /* .logo {
+        width: 10px;
+        border: 1px solid white;
+    }
+   
+    .container{
+        width: 100%;
+        height: 100vh;
+        box-shadow: none;
+        border: none;
+        padding: none;
+    }
+    input{
+        padding: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(239, 224, 224);
+    height: 25px;
+    text-align: center;
+    }
+    .itemmenu{
+        width: 50px;
+        height: 100px;
+        margin: 15px 10px;
+        padding: none;
+    }
+    .para{
+
+    } */
+}
